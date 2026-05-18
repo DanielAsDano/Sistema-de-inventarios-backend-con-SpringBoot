@@ -1,0 +1,72 @@
+# ==========================================
+# BACKEND - Spring Boot / Maven
+# ==========================================
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Archivos sensibles del backend
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+src/main/resources/application.yml
+src/main/resources/application-*.yml
+*.env
+.env
+.env.*
+
+# ==========================================
+# FRONTEND - Angular / Node.js
+# ==========================================
+node_modules/
+dist/
+.angular/
+.sass-cache/
+*.js.map
+
+# Archivos de entorno (pueden contener API keys)
+inventario-app/src/environments/environment.ts
+inventario-app/src/environments/environment.prod.ts
+
+# ==========================================
+# IDEs y Editores
+# ==========================================
+
+### VS Code ###
+.vscode/
+!.vscode/extensions.json
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# ==========================================
+# Sistema Operativo
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+inventario-app/src/environments/environment.ts
+inventario-app/src/environments/environment.prod.ts
